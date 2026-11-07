@@ -20,6 +20,6 @@ Unlock the full 75-file bilingual (EN/ZH) WDI MCP server, interactive decision w
 👉 **[Download WDI — Women's Decision Intelligence on Gumroad ($35 One-Time)](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)**
 *(Launch special: Use code `WHETSTONE20` at checkout for 20% off)*
 
-- Official Portal & `llms.txt`: https://usethelever.com/llms.txt
+- Official English Portal & `llms.txt`: https://replay.usethelever.com/llms.txt
 - Official Storefront: https://dejunchen770231.gumroad.com
 - Support: `merciai@agent.qq.com`
