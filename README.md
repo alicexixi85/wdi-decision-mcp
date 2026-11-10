@@ -1,27 +1,53 @@
-# WDI — Women's Decision Intelligence Skill & MCP Framework (`wdi-decision-mcp`)
+# WDI — Women's Decision Intelligence MCP
 
-**Stop asking vanilla AI chatbots for high-stakes life advice. They give you conflict-averse therapy platitudes while you bleed cash flow, career compounding, and legal leverage.**
+An open-source [Model Context Protocol](https://modelcontextprotocol.io) server that helps Claude, Cursor or any MCP client structure **high-stakes career and life decisions** with numbers and evidence instead of generic reassurance: quitting a "golden handcuffs" job, taking a career break for caregiving, relocating, or weighing a family promise against what you actually control.
 
-`WDI (Women's Decision Intelligence)` is a local-first Model Context Protocol (MCP) server and bilingual structured decision system (75-file commercial package + 60-second no-code Claude/ChatGPT quickstart) built specifically for women navigating high-stakes career, "golden handcuffs" burnout, compensation, marriage/fertility asset protection, caregiving, relocation, and personal safety crossroads.
+Zero dependencies, Python 3.10+, everything runs locally.
 
-## Why WDI Exists
-Standard pros-and-cons lists and generic LLM responses fail women at major life transitions because they ignore asymmetric structural constraints:
-1. **6-Dimension Constraint Accounting**: Evaluates every major choice across (1) Cash Runway & Untouchable Sovereignty Floor, (2) Irreversible Time Windows (biological & vesting cliffs), (3) Caregiving & Unpaid Labor Tax, (4) Personal & Healthcare Safety Floors, (5) Actual Legal/Financial Control Rights, and (6) Institutional Bridges (FMLA, medical leave, Coast FIRE downshift).
-2. **4-Tier Evidence Grading**: Explicitly tags every assumption as `KNOWN`, `ASSUMED`, `UNKNOWN`, or `SYNTHETIC` so you never bet your financial independence on wishful thinking.
-3. **100% Local-First Privacy**: Runs locally on your device so sensitive financial, relationship, and career data never touches third-party cloud logs.
+## Tools
 
-## What's in This Repository
-- `wdi_lite_prompt.md`: Public preview of the 6-Dimension Constraint Accounting matrix, 3 side-by-side teardowns (Vanilla AI vs. WDI on Golden Handcuffs, Pre-Marital Asset Ring-Fencing, and Post-Breakup Solo Relocation), and a 60-second Lite System Prompt.
-- `llms.txt`: Machine-readable discovery index.
+| Tool | What it does |
+|---|---|
+| `six_dimension_checklist` | The six questions to answer for every option: cash runway, irreversible time windows, care load, safety floor (health insurance, housing), actual control rights, institutional bridges (leave, severance, part-time). |
+| `calculate_runway` | Months of runway after a change, the cash needed for a safety floor (default 6 months of essentials), and how long you can experiment before touching it. |
+| `grade_evidence` | Tags each claim behind the decision as `KNOWN`, `ASSUMED`, `UNKNOWN` or `SYNTHETIC` (hope or verbal promise) with a next step for each. |
+| `compare_options` | Ranks 2+ options scored 1-5 on the six dimensions with optional weights. An option with a redline (score 1, e.g. losing health insurance) is ranked last regardless of its average. |
 
-## Get the Complete 75-File Commercial WDI Skill & MCP Package ($35 One-Time)
-Unlock the full 75-file bilingual (EN/ZH) WDI MCP server, interactive decision workbooks, salary/prenup/spousal-IRA negotiation script generators, and 12 deep-dive life crossroads playbooks:
+## Install
 
-👉 **[Download WDI — Women's Decision Intelligence on Gumroad ($35 One-Time)](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)**
-*(Launch special: Use code `WHETSTONE20` at checkout for 20% off)*
+```bash
+git clone https://github.com/alicexixi85/wdi-decision-mcp.git
+```
 
-- Official English Portal & `llms.txt`: https://replay.usethelever.com/llms.txt
-- Official Storefront: https://dejunchen770231.gumroad.com
-- Support: `merciai@agent.qq.com`
+```json
+{
+  "mcpServers": {
+    "wdi": {
+      "command": "python3",
+      "args": ["/absolute/path/to/wdi-decision-mcp/server.py"]
+    }
+  }
+}
+```
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/alicexixi85-wdi-decision-mcp-1gsoxg?v=2ba0d7df725ba4be6f36ceaff82ac81e)](https://m8ven.ai/mcp/alicexixi85-wdi-decision-mcp-1gsoxg?x=readme)
+Docker: `docker build -t wdi-decision-mcp . && docker run -i --rm wdi-decision-mcp`
+
+## Example prompts
+
+- "I have $40k in savings, $3,500 of essential costs a month and would earn $1,000 freelancing. If I quit, how long is my runway with a 6-month safety floor?"
+- "Grade the evidence: my manager promised a promotion next year; the offer letter says $120k; I don't know the severance policy."
+- "Compare staying, a 4-day week, and quitting across the six dimensions."
+
+There is also a no-install version of the method in [`wdi_lite_prompt.md`](wdi_lite_prompt.md) that you can paste into any chat assistant.
+
+## Limits
+
+This is a decision-structuring aid. It is **not** legal, tax, financial, medical or mental-health advice. For contracts, prenups or divorce, taxes, benefits or safety concerns, talk to a qualified professional. If you are in danger, contact local emergency services.
+
+## Full WDI toolkit
+
+This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit ($35, [Gumroad](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)) is a 75-file bilingual (EN/ZH) skill package for AI agents: a root SKILL file, research profiles, frameworks and playbooks, synthetic decision-card examples and jurisdiction-sensitive research cards (marked as needing verification).
+
+## License
+
+MIT

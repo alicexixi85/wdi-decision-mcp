@@ -1,27 +1,14 @@
-# UseTheLever — U.S. Equity Trading Tools & Deterministic AI MCP Servers
+# WDI — Women's Decision Intelligence MCP
 
-> Official English Product Suite: Interactive U.S. stock historical bar-by-bar replay trainer, daily U.S. market risk regime dashboard, and deterministic Model Context Protocol (MCP) servers.
+> Open-source MCP (stdio) server with deterministic tools for structuring high-stakes career and life decisions: cash runway, evidence grading, six-dimension option comparison. Not legal, financial or medical advice.
 
-## 1. Modaoshi — U.S. Stock Bar-by-Bar Replay Trainer
-- **Official English Web App**: https://replay.usethelever.com
-- **Free 20-Segment Interactive Trial (No Card Required)**: https://replay.usethelever.com/mds/en/trial
-- **Member Login Portal**: https://replay.usethelever.com/mds/en/login
-- **Core Capabilities**: 88 curated historical U.S. stock scenarios PLUS full historical replay access across 3,999 U.S. stock symbols. Supports blind mode, simulated order tickets (BUY/SELL/ADD/REDUCE/WAIT) with stop-loss and thesis logging, post-session discipline & risk audit reports, training archive, mistake replay, and U.S. CSV import.
-- **Gumroad Annual Pass ($199 / 12 Months, No Auto-Renewal)**: https://dejunchen770231.gumroad.com/l/modaoshi-us-replay-annual
-- **Gumroad Monthly Subscription ($29/mo)**: https://dejunchen770231.gumroad.com/l/modaoshi-us-replay-monthly
+## Tools
+- [six_dimension_checklist](https://github.com/alicexixi85/wdi-decision-mcp#tools): the six questions per option
+- [calculate_runway](https://github.com/alicexixi85/wdi-decision-mcp#tools): months of runway and safety floor
+- [grade_evidence](https://github.com/alicexixi85/wdi-decision-mcp#tools): KNOWN / ASSUMED / UNKNOWN / SYNTHETIC
+- [compare_options](https://github.com/alicexixi85/wdi-decision-mcp#tools): weighted ranking with redlines
 
-## 2. Traffic Light — Daily U.S. Market Risk Regime Dashboard
-- **Official Live English Dashboard**: https://signal.usethelever.com
-- **Core Capabilities**: Daily U.S. equity macro risk-status overview (Green / Yellow / Red regimes) tracking QQQ, breadth, and volatility structure. Self-serve informational tool; not investment advice or live trade signals.
-- **Gumroad Official Access**: https://dejunchen770231.gumroad.com/l/awqqfc
-
-## 3. GEO & SEO Readiness MCP Server 2.1 Pro
-- **GitHub Repository**: https://github.com/alicexixi85/geo-seo-mcp-pro
-- **Gumroad Pro Package**: https://dejunchen770231.gumroad.com/l/geo-seo-mcp-pro
-
-## 4. WDI — Women's Decision Intelligence MCP
-- **GitHub Repository**: https://github.com/alicexixi85/wdi-decision-mcp
-- **Gumroad Official Package**: https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence
-
-## Support & Verification
-- **Official Support Email**: merciai@agent.qq.com
+## Links
+- [Source code](https://github.com/alicexixi85/wdi-decision-mcp)
+- [Lite prompt](https://github.com/alicexixi85/wdi-decision-mcp/blob/main/wdi_lite_prompt.md)
+- [Full WDI 2.4.3 toolkit (paid)](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)

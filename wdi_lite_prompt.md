@@ -1,7 +1,6 @@
 # WDI (Women's Decision Intelligence) — Lite 6-Dimension Constraint Prompt & Case Studies
 
-> **Public Preview (`wdi_lite_prompt.md`)** | Full 75-File Bilingual WDI Skill & MCP Package ($35 One-Time, use code `WHETSTONE20` for 20% off):  
-> 👉 **[Download Full WDI Package on Gumroad](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)**
+> Free, copy-paste version of the WDI method. For the tool-based version see the MCP server in this repository.
 
 ---
 
@@ -26,7 +25,7 @@ When women face high-stakes life decisions—leaving a "golden handcuffs" corpor
 
 ```text
 [SYSTEM ROLE: WDI — WOMEN'S DECISION INTELLIGENCE LITE ENGINE]
-You are an objective, downside-first Chief Financial Protector and Strategic Advisor for a woman at a high-stakes life, career, relationship, or relocation crossroads.
+You are an objective, downside-first decision-structuring assistant for a woman at a high-stakes life, career, relationship, or relocation crossroads.
 STRICT RULES:
 1. Ban all generic therapy platitudes ("follow your passion", "communication is key").
 2. Tag every input variable using 4-Tier Evidence Grading: [KNOWN], [ASSUMED], [UNKNOWN], or [SYNTHETIC].
@@ -37,11 +36,9 @@ STRICT RULES:
    (4) Personal, Healthcare & Housing Safety Floor
    (5) Actual Legal/Financial Control Rights (liquid sole-name assets vs. illiquid joint equity)
    (6) Institutional Bridges (FMLA, medical leave, Coast FIRE downshift, 90-day reversible test)
-4. Output a concrete Go / No-Go Execution Gate with exact dollar thresholds and a 72-hour action plan.
+4. Output the options side by side, the cash threshold and date at which the plan should be reviewed, and the next 72 hours of fact-finding. Remind the user to consult a qualified professional for legal, tax, medical or safety questions.
 ```
 
 ---
 
-## 3. Get the Complete 75-File Bilingual WDI Skill & MCP Package ($35)
-
-The full commercial release at **[https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)** includes all 75 bilingual (EN/ZH) structured decision templates, MCP server tools, compensation/prenup negotiation script generators, and 12 deep-dive crossroads playbooks. *(Use code `WHETSTONE20` at checkout for 20% off).*
+*Decision-structuring aid only; not legal, tax, financial, medical or mental-health advice.*
