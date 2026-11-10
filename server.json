@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alicexixi85/wdi-decision-mcp",
+  "title": "WDI Decision Intelligence",
+  "description": "Cash-runway math, evidence grading and six-dimension option comparison for personal decisions.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/alicexixi85/wdi-decision-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/alicexixi85/wdi-decision-mcp:0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

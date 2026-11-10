@@ -51,3 +51,5 @@ This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit 
 ## License
 
 MIT
+
+<!-- mcp-name: io.github.alicexixi85/wdi-decision-mcp -->
