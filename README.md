@@ -23,3 +23,5 @@ Unlock the full 75-file bilingual (EN/ZH) WDI MCP server, interactive decision w
 - Official English Portal & `llms.txt`: https://replay.usethelever.com/llms.txt
 - Official Storefront: https://dejunchen770231.gumroad.com
 - Support: `merciai@agent.qq.com`
+
+[![M8ven Score](https://m8ven.ai/badge/mcp/alicexixi85-wdi-decision-mcp-1gsoxg?v=2ba0d7df725ba4be6f36ceaff82ac81e)](https://m8ven.ai/mcp/alicexixi85-wdi-decision-mcp-1gsoxg?x=readme)
