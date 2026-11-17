@@ -4,6 +4,8 @@ An open-source [Model Context Protocol](https://modelcontextprotocol.io) server 
 
 Zero dependencies, Python 3.10+, everything runs locally.
 
+Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=wdi-decision-mcp) as `io.github.alicexixi85/wdi-decision-mcp` and on [Glama](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp). No API keys, no network calls: your numbers never leave your machine.
+
 ## Tools
 
 | Tool | What it does |
