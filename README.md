@@ -71,3 +71,8 @@ This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit 
 MIT
 
 <!-- mcp-name: io.github.alicexixi85/wdi-decision-mcp -->
+
+## Sister Zero-Install Remote MCP Servers (`usethelever.com`)
+
+- **AI Search & GEO Readiness Remote MCP**: `https://mcp.usethelever.com/geo-audit/mcp` ([Catalog & Docs](https://mcp.usethelever.com/ai-tools))
+- **U.S. Market Regime & Prop-Firm Drawdown Remote MCP**: `https://mcp.usethelever.com/market-regime/mcp`
