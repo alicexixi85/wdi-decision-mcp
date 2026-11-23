@@ -1,6 +1,6 @@
 # WDI — Women's Decision Intelligence MCP
 
-> Open-source MCP (`stdio`, 100% local privacy) server with deterministic tools for structuring high-stakes career and life decisions: cash runway, evidence grading, and six-dimension option comparison. Not legal, financial, or medical advice.
+> Open-source MCP (stdio) server with deterministic tools for structuring high-stakes career and life decisions: cash runway, evidence grading, six-dimension option comparison. Not legal, financial or medical advice.
 
 ## Tools
 - [six_dimension_checklist](https://github.com/alicexixi85/wdi-decision-mcp#tools): the six questions per option
@@ -9,7 +9,6 @@
 - [compare_options](https://github.com/alicexixi85/wdi-decision-mcp#tools): weighted ranking with redlines
 
 ## Links
-- [Source code (MIT)](https://github.com/alicexixi85/wdi-decision-mcp)
-- [Zero-Install Lite Prompt](https://github.com/alicexixi85/wdi-decision-mcp/blob/main/wdi_lite_prompt.md)
-- [Full WDI 2.4.3 75-File Toolkit ($35)](https://gumroad.com/l/wdi-womens-decision-intelligence)
-- Support: support@usethelever.com
+- [Source code](https://github.com/alicexixi85/wdi-decision-mcp)
+- [Lite prompt](https://github.com/alicexixi85/wdi-decision-mcp/blob/main/wdi_lite_prompt.md)
+- [Full WDI 2.4.3 toolkit (paid)](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)
