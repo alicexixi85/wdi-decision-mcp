@@ -62,7 +62,7 @@ This is a decision-structuring aid. It is **not** legal, tax, financial, medical
 
 ## Full WDI 2.4.3 Toolkit
 
-This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit ($35 one-time, [Gumroad](https://leverailab.gumroad.com/l/wdi-womens-decision-intelligence)) is a 75-file bilingual (EN/ZH) skill package for AI agents: a root SKILL file, research profiles, frameworks and playbooks, synthetic decision-card examples, and jurisdiction-sensitive research cards (marked as needing verification).
+This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit ($35 one-time, [Gumroad](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)) is a 75-file bilingual (EN/ZH) skill package for AI agents: a root SKILL file, research profiles, frameworks and playbooks, synthetic decision-card examples, and jurisdiction-sensitive research cards (marked as needing verification).
 
 - **Support**: `support@usethelever.com`
 
