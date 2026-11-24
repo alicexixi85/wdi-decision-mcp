@@ -4,6 +4,9 @@ An open-source [Model Context Protocol](https://modelcontextprotocol.io) server 
 
 Zero dependencies, Python 3.10+, everything runs locally.
 
+> **Try the interactive decision simulator in your browser (zero install):** [usethelever.com/wdi/](https://usethelever.com/wdi/) — compare generic AI reassurance vs. WDI's 6-dimension structural analysis on real high-stakes scenarios (e.g. `$380k` Big Tech burnout, caregiving career break, relocation). Also see the companion skill repo [alicexixi85/women-decision-intelligence](https://github.com/alicexixi85/women-decision-intelligence).
+
+
 Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=wdi-decision-mcp) as `io.github.alicexixi85/wdi-decision-mcp` and on [Glama](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp). No API keys, no network calls: your numbers never leave your machine.
 
 ## Tools
