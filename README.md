@@ -1,5 +1,7 @@
 # WDI — Women's Decision Intelligence MCP
 
+[![alicexixi85/wdi-decision-mcp MCP server](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp)
+
 An open-source [Model Context Protocol](https://modelcontextprotocol.io) server that helps Claude, Cursor or any MCP client structure **high-stakes career and life decisions** with numbers and evidence instead of generic reassurance: quitting a "golden handcuffs" job, taking a career break for caregiving, relocating, or weighing a family promise against what you actually control.
 
 Zero dependencies, Python 3.10+, everything runs locally.
