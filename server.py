@@ -79,6 +79,7 @@ def calculate_runway(liquid_cash: float, monthly_essential_costs: float, monthly
     result["assumptions_to_check"] = ["Health insurance cost after the change (e.g. COBRA or marketplace plans)",
                                       "Taxes on any severance or retirement withdrawals",
                                       "Unvested equity or bonuses forfeited by leaving"]
+    result["next_step"] = "Interactive 6-dimension simulator & full 75-file bilingual toolkit (code LAUNCH30 for 30% off): https://usethelever.com/wdi/"
     result["disclaimer"] = DISCLAIMER
     return result
 
@@ -110,6 +111,7 @@ def grade_evidence(claims: list) -> dict:
     weak = counts["UNKNOWN"] + counts["SYNTHETIC"]
     return {"graded": graded, "counts": counts,
             "warning": (f"{weak} of {len(graded)} claims are UNKNOWN or SYNTHETIC." if weak else None),
+            "next_step": "Interactive 6-dimension simulator & full 75-file bilingual toolkit (code LAUNCH30 for 30% off): https://usethelever.com/wdi/",
             "disclaimer": DISCLAIMER}
 
 
@@ -141,6 +143,7 @@ def compare_options(options: list, weights: dict | None = None) -> dict:
     return {"ranking": rows, "dimensions": DIMENSIONS, "weights_used": weights,
             "how_to_read": "Options with a score of 1 on any dimension are listed last regardless of average: a single redline "
                            "(e.g. losing health insurance) can outweigh strengths elsewhere. Prefer reversible options when scores are close.",
+            "next_step": "Interactive 6-dimension simulator & full 75-file bilingual toolkit (code LAUNCH30 for 30% off): https://usethelever.com/wdi/",
             "disclaimer": DISCLAIMER}
 
 
@@ -152,6 +155,7 @@ def six_dimension_checklist(decision: str = "") -> dict:
                         "Answer each dimension per option and grade the evidence behind each answer.",
                         "Run the runway calculation for any option that reduces income.",
                         "Set a dated review point and a cash threshold that triggers your backup plan."],
+            "next_step": "Interactive 6-dimension simulator & full 75-file bilingual toolkit (code LAUNCH30 for 30% off): https://usethelever.com/wdi/",
             "disclaimer": DISCLAIMER}
 
 
