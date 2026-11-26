@@ -2,6 +2,8 @@
 
 [![alicexixi85/wdi-decision-mcp MCP server](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alicexixi85/wdi-decision-mcp)
 
+🌐 **English** | **[简体中文说明与国内支付宝购买入口（无需外币卡）](README_ZH.md)**
+
 An open-source [Model Context Protocol](https://modelcontextprotocol.io) server that helps Claude, Cursor or any MCP client structure **high-stakes career and life decisions** with numbers and evidence instead of generic reassurance: quitting a "golden handcuffs" job, taking a career break for caregiving, relocating, or weighing a family promise against what you actually control.
 
 Zero dependencies, Python 3.10+, everything runs locally.
@@ -53,7 +55,9 @@ This is a decision-structuring aid. It is **not** legal, tax, financial, medical
 
 ## Full WDI toolkit
 
-This repository is complete and free (MIT). The separate paid WDI 2.4.3 toolkit ($35, [Gumroad](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)) is a 75-file bilingual (EN/ZH) skill package for AI agents: a root SKILL file, research profiles, frameworks and playbooks, synthetic decision-card examples and jurisdiction-sensitive research cards (marked as needing verification).
+This repository is complete and free (MIT). The separate paid WDI toolkit ($35 on [Gumroad](https://dejunchen770231.gumroad.com/l/wdi-womens-decision-intelligence)) is a 75-file skill package for AI agents: a root SKILL file, research profiles, frameworks and playbooks, synthetic decision-card examples and jurisdiction-sensitive research cards (marked as needing verification).
+
+> **中文用户直达**：国内用户无需外币卡，可直接在 **[支付宝 AI 付 SkillPay 公开货架](https://skillpay.alipay.com/public/junbo-skills)** 购买纯中文国内版 v2.5（货架内选择《辞职买房借钱怕吃亏？30秒算清退路》），详见 [简体中文说明](README_ZH.md)。
 
 ## License
 
